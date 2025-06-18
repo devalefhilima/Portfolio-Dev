@@ -35,4 +35,32 @@ body {
     background-color: var(--gray-300);
     font: var(--text-sm);
     color: var(--gray-500);
+    height: 100vh;
 }
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: var(--gray-600);
+}
+
+h1 {
+    font: var(--title-lg);
+}
+
+h2 {
+    font: var(--title-md);
+}
+
+h3 {
+    font: var(--title-sm);
+}
+
+span {
+    font: var(--subtitle);
+}
+
+
